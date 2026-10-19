@@ -3,10 +3,10 @@
 define('ROOTPATH', $_SERVER['DOCUMENT_ROOT'] . '/indomaret');
 include ROOTPATH . '/includes/header.php';
 ?>
-<link rel="stylesheet" href="/indomaret/css/style.css">
+
 <center style="margin-top: 50px;">
     <h1>Tambah Data Kasir</h1>
-    <form action="" method="post">
+    <form action="/indomaret/process/cashiers_process.php" method="post">
         <div class="input-group">
             <input type="text" name="nama_kasir" id="username" class="custom-input" placeholder="Masukkan Nama Kasir"
                 required>
